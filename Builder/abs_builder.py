@@ -19,10 +19,6 @@ class AbsBuilder(object):
         pass
 
     @abc.abstractmethod
-    def build_mainboard(self):
-        pass
-
-    @abc.abstractmethod
     def install_mainboard(self):
         pass
 
